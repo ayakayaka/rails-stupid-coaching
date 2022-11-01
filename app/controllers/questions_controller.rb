@@ -1,4 +1,8 @@
 class QuestionsController < ApplicationController
+
+  def ask
+  end
+
   def answer
     @message = params[:message]
     if @message == 'I am going to work'
